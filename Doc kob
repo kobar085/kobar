@@ -1,0 +1,27 @@
+CopyRight =
+   "=============Google BBS <http://www.masswerk.at/googleBBS/> (c) 2012/04 N.Landsteiner, www.masswerk.at=================";
+var term,
+   logDate,
+   logTime,
+   counter,
+   pageBuffer,
+   pageCallback,
+   connectCallback,
+   homeScreen,
+   timer,
+   state,
+   feelingLucky,
+   resultsCrsr,
+   audios = null;
+var pageDelay = 90;
+var connectDelay = 50;
+var frameChar = "\u2016"; //'\u2551';
+var sepChar = "\u2503";
+var pipeChar = "\u254F";
+var flashDelay = 400;
+var months = [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
